@@ -58,7 +58,7 @@ body{
 .container div h1{
     font-size: 50px;
     font-weight: 600;
-    color: var(--ligth-gray);
+    color: #c4c4c4;
     margin-bottom: -50px;
     opacity: 0.5;
     transition: 0.5s;
@@ -66,6 +66,7 @@ body{
 .container div:hover h1{
     opacity: 1;
     transform: translateY(-50px);
+    color: var(--ligth-gray);
 }
 .container div h3{
     text-transform: capitalize;
